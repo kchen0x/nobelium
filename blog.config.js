@@ -5,19 +5,19 @@ const BLOG = {
   link: 'https://kchen-nb.vercel.app',
   description: 'Tell interesting stories.',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
-  appearance: 'light', // ['light', 'dark', 'auto'],
+  appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2021, // If leave this empty, current year will be used.
-  postsPerPage: 7,
+  postsPerPage: 6,
   sortByDate: false,
   showAbout: false,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/craigaryhart',
+  ogImageGenerateURL: '', // The link to generate OG image, don't end with a slash
+  socialLink: 'https://twitter.com/kchen0x',
   seo: {
     keywords: ['Blog', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
